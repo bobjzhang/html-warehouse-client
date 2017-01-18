@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
 }
 
 *,
@@ -9,6 +10,18 @@ html {
   box-sizing: inherit;
 }
 
+.site-nav {
+  position: fixed;
+  top = 0;
+  left = 0;
+  width: 4.5rem;
+  /*height: 100%*/
+  background-color: blue;
+  color: hotpink;
+  text-align: center;
+}
+
 .site-nav-list {
   list-style-type: none;
+  padding: 0;
 }
